@@ -21,7 +21,7 @@ CentOS:
 CentOS Stream:
   pkg:
     deps:
-      - iptables
+      # - iptables
       - python3-dnf-plugin-versionlock
       - python3-docker
     docker:
